@@ -20,7 +20,7 @@
 .topnav { /* קריאה לאנימציה*/
   animation: 1s ease-out 0s 1 slideInFromLeft;/* כמות הזמן שהאנימציה מתמשכת (מהירות האנימציה)*/
 
-  background: #F9E4C8; /* צבע*/
+  background: #333; /* צבע*/
   padding: 30px;
 }
 
