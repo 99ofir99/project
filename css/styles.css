@@ -7,8 +7,7 @@ body {
   margin: 0;
   text-align: center;
   font-family: sans-serif;
-  
-margin:auto;
+  margin: auto;
 }
 
 h1 {
@@ -108,7 +107,7 @@ hr {
 }
 .baloon {
   position: absolute;
-  padding-left: 1140px;
+  padding-left: 60%;
   left: 300px;
   top: 300px;
   animation-name: baloon-animation;
@@ -134,14 +133,14 @@ hr {
 .gcloud1 {
   position: absolute;
   top: 100px;
-  left: 1030px;
+  left: 55%;
 }
 
 .gcloud2 {
   width: 300px;
   position: absolute;
   top: 350px;
-  left: 1200px;
+  left: 62%;
 }
 
 .copyright {
@@ -159,28 +158,7 @@ hr {
 
 }
 
-.btn {
-  background-color: #66bfbf;
-  border-radius: 28px;
-  border: 2px solid #947294;
-  display: inline-block;
-  cursor: pointer;
-  color: #030003;
-  font-family: Arial;
-  font-size: 17px;
-  font-weight: bold;
-  padding: 18px 28px;
-  text-decoration: none;
-}
 
-.btn:hover {
-  background-color: #88e8eb;
-}
-
-.btn:active {
-  position: relative;
-  top: 1px;
-}
 .categories {
   display: flex;
   justify-content: center;
@@ -235,4 +213,27 @@ hr {
 
 .btn6:hover:before {
   left: 100%;
+}
+
+.btn {
+  background-color: #66bfbf;
+  border-radius: 28px;
+  border: 2px solid #947294;
+  display: inline-block;
+  cursor: pointer;
+  color: #030003;
+  font-family: Arial;
+  font-size: 17px;
+  font-weight: bold;
+  padding: 18px 28px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: #88e8eb;
+}
+
+.btn:active {
+  position: relative;
+  top: 1px;
 }
