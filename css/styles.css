@@ -1,0 +1,235 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+h1 {
+  margin: 0 auto 0 auto;
+  font-size: 3rem;
+  color: black;
+}
+
+h2 {
+  color: black;
+  font-weight: normal;
+  padding-bottom: 10px;
+  text-decoration: underline;
+  font-family: 'Niconne', cursive, sans-serif;
+  font-size: 3em;
+}
+
+h3 {
+  color: black;
+  font-family: 'Sriracha', cursive;
+  text-decoration: underline;
+}
+
+hr {
+  border-style: dotted none none none;
+  border-top-style: dotted;
+  border-width: 10px;
+  width: 5%;
+}
+
+.title {
+  position: relative;
+  top: 50px;
+  font-size: 5em;
+}
+
+.subtitle {
+  position: relative;
+  top: 40px;
+  color: black;
+  font-size: 2em;
+}
+
+.text-headlines {
+  color: black;
+}
+
+.topnav {
+  background-color: rgba(56, 163, 165, 1);
+  position: relative;
+  text-align: left;
+  padding: 30px 0 0 20px;
+  font-size: 20px;
+  overflow: hidden;
+}
+
+
+.header {
+  background: linear-gradient(180deg, rgba(56, 163, 165, 1) 10%, rgba(231, 243, 238, 1) 70%, rgba(255, 255, 255, 1) 100%);
+  position: relative;
+  height: 1200px;
+  font-family: 'Niconne', cursive, sans-serif;
+  line-height: 1.5;
+}
+
+.landscape {
+  width: 100%;
+  position: relative;
+  opacity: 100%;
+  top: 0px;
+}
+
+.about {
+  font-family: sans-serif;
+  margin: 100px 0;
+  background: linear-gradient(180deg, , rgba(255, 255, 255, 1) 1000%, rgba(56, 163, 165, 1) 100%, rgba(231, 243, 238, 1) 70%);
+  width: 50%;
+  margin: 100px auto 100px auto;
+  line-height: 2;
+}
+
+
+.bottom-container {
+  font-family: sans-serif;
+  background-color: #66bfbf;
+  padding: 50px 0 20px;
+}
+
+.nav {
+  color: #94ebcd;
+  margin: 0 20px 0 10px;
+  text-decoration: none;
+}
+
+.nav :hover {
+  color: #eaf6f6;
+}
+
+.baloon {
+  position: absolute;
+  padding-left: 1200px;
+  left: 300px;
+  top: 300px;
+  animation-name: baloon-animation;
+  animation-duration: 4.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes baloon-animation {/* נקודות שבינהן הכדור פורז זז*/
+  0% {
+    top: 250px;
+  }
+
+  50% {
+    top: 300px;
+  }
+
+  100% {
+    top: 250px;
+  }
+}
+
+.gcloud1 {
+  position: absolute;
+  top: 100px;
+  left: 1240px;
+}
+
+.gcloud2 {
+  width: 300px;
+  position: absolute;
+  top: 350px;
+  left: 1200px;
+}
+
+.copyright {
+  color: #eaf6f6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.contact-us {
+  font-family: sans-serif;
+  margin-top: 130px;
+  margin-bottom: 50px;
+}
+
+
+}
+
+.btn {
+  background-color: #66bfbf;
+  border-radius: 28px;
+  border: 2px solid #947294;
+  display: inline-block;
+  cursor: pointer;
+  color: #030003;
+  font-family: Arial;
+  font-size: 17px;
+  font-weight: bold;
+  padding: 18px 28px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: #88e8eb;
+}
+
+.btn:active {
+  position: relative;
+  top: 1px;
+}
+.categories {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: relative;
+  bottom: 500px;
+}
+
+
+.btn6 {
+  text-decoration: none;
+  border: 1px solid rgb(146, 148, 248);
+  position: relative;
+  overflow: hidden;
+  font-size: 1.5rem;
+  padding: 1rem 3rem;
+  color: black;
+}
+#butn1{
+  position: relative;
+  right: 150px;
+    background-color: #66bfbf;
+}
+
+#butn2{
+  position: relative;
+  left: 150px;
+  background-color: #66bfbf;
+}
+
+
+.btn6:hover {/* הצבע שזוהר מחוץ לגבולות הכפתור ועוצמתו*/
+  box-shadow: 1px 1px 25px 10px #94ebcd;
+}
+
+.btn6:before {
+  content: "";/* מה מופיע בתוך הצבע שעובר על הכפתור*/
+  position: absolute;
+  top: 0;
+  left: -100%;/* לתת לצבע שעובר על הכפתור להופיע בהתחלה*/
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    120deg,
+    transparent,
+    rgba(231, 243, 238, 1),/* צבע הצבע שעובר על הכפתור ימינה ושמאלה*/
+    transparent
+  );
+  transition: all 650ms;
+}
+
+.btn6:hover:before {
+  left: 100%;
+}
