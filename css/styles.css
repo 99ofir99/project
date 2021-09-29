@@ -6,7 +6,8 @@ body {
   margin: 0;
   text-align: center;
   font-family: sans-serif;
- overflow-x: hidden;
+
+
 }
 
 h1 {
@@ -104,16 +105,16 @@ hr {
 .nav :hover {
   color: #eaf6f6;
 }
-
 .baloon {
   position: absolute;
-  padding-left: 1200px;
+  padding-left: 1140px;
   left: 300px;
   top: 300px;
   animation-name: baloon-animation;
   animation-duration: 4.5s;
   animation-iteration-count: infinite;
 }
+
 
 @keyframes baloon-animation {/* נקודות שבינהן הכדור פורז זז*/
   0% {
@@ -132,7 +133,7 @@ hr {
 .gcloud1 {
   position: absolute;
   top: 100px;
-  left: 1240px;
+  left: 1030px;
 }
 
 .gcloud2 {
